@@ -1,0 +1,36 @@
+.info {
+    padding-top: 80px;
+    margin: auto;
+    text-align: center;
+}
+
+.pfp {
+    padding-left: 50px;
+}
+h1 {
+    color: white;
+    font-size: 65px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-family: Georgia;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    text-shadow: 12px 12px 10px black;
+}
+p {
+    font-size: 17px;
+    color: white;
+    font-family: Verdana;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .5px;
+    padding-bottom: 80px;
+}
+h1, p {
+    text-align: center;
+}
+body {
+    background-image: url(https://th.bing.com/th/id/R.6d9819281107676b979e78648fb5a2ba?rik=v3OlunVAE6dNmQ&pid=ImgRaw&r=0);
+    background-color: black;
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+}
