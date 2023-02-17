@@ -1,6 +1,16 @@
+@font-face {
+    font-family: 'Designer';
+    font-style: normal;
+    src: url('./fonts/Designer.otf');
+}
+
+
 h1, p {
     color: white;
 }
+
+
+
 
 h1 {
     padding-top: 20px;
@@ -17,8 +27,8 @@ p {
 }
 
 body {
-    background-image: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/SRsQjwFQMjby34s1c/videoblocks-binary-blue-particles-falling-down-in-matrix-style-futuristic-seamless-3d-animation-with-bright-1-and-0-code-computer-technology-network-and-cryptocurrency-blockchain-concept-loop-alpha-matte_hzfnzaabax_thumbnail-1080_01.png);
-    background-color: rgba(0, 0, 0, .85);
+    background-image: url(https://media.giphy.com/media/Eo6S6fbgPmRPi/giphy.gif);
+    background-color: rgba(0, 0, 0, .65);
     background-blend-mode: darken;
     background-repeat: repeat-y;
 }
@@ -109,6 +119,8 @@ hr {
 }
 
 .infocontainer {
+    border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, .1);
     border: 5px solid white;
     display: flex;
     flex-direction: row;
@@ -121,8 +133,22 @@ hr {
     border: none;
     flex-direction: row;
     color: white;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Designer';
     font-size: 25px;
     text-align: center;
-    padding-left: 75px;
+    padding-left: 100px;
+    -webkit-text-stroke: .5px black;
 }
+
+img {
+    border-radius: 50%;
+}
+
+section {
+    box-shadow: 10px 10px;
+}
+
+@media screen and (max-width: 481px) {
+
+}
+
