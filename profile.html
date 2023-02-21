@@ -20,34 +20,39 @@
         <body>
             <h1>Account Profile</h1>
             <section class="infocontainer" style="border:5px 5px black;">
-
-                <table>
                     <thead>
-                        <header class="accinfohead">DESIGNER</header>
+                        <header class="accinfohead">INFO</header>
+                        <p id="infopfp"><img class="avatar" src="https://pbs.twimg.com/media/Dgo1DXmWkAAWi_P.jpg" style="width:100px;height:100px;border: 2px solid white;" alt="user profile picture"></p>
                     </thead>
                     <tbody>
+                        <br>
+                        <p class="info">User Name(s): <label name="username">Terrace Mason</label></p>
+                        <p class="info">User Alias(es): <label name="useraliases">donnyT (current), xxgamerboy123xx, GarbageEater15</label></p>
+                        <p class="info">User Avatar: <label name="userimage"></label><input for="userimage" class="pfpsubmit" type="file" /></p>
                     </tbody>
-                    <h3></h3>
-                </table>
-                <div></div>
+            </section>
+            <section class="infocontainer2" style="border:5px 5px black;">
+                    <thead>
+                        <header class="accinfohead">TASKS</header>
+                    </thead>
+                    <tbody>
+                        <p class="info">Active Tasks: <label name="atasks">Java Animations, HTML5 Elements Introduction</label></p>
+                        <p class="info">Available Tasks: <label name="avatasks">Advanced HTML5/CSS Styling, CSS Color Styling, HTML Backgrounds</label></p>
+                        <p class="info">Completed Tasks: <label name="comptasks">HTML5/CSS Introduction, Basic Programming Applications Intro</label></p>
+                    </tbody>
             </section>
             <fieldset class="f1">
-                <p class="info">User Name(s): <label name="username">Terrace Mason</label></p>
-                <p class="info">User Alias(es): <label name="useraliases">donnyT (current), xxgamerboy123xx, GarbageEater15</label></p>
+                <p class="info" name="uprogression">Course Progression</p>
                 <div>
-                    <p class="info"><img class="avatar" src="https://pbs.twimg.com/media/Dgo1DXmWkAAWi_P.jpg" style="width:100px;height:100px;border: 2px solid white;" alt="user profile picture"></p>
+                    <div class="bar">
+                        <div class="greenbar" style="width:28.5%;height:15px;"></div>
+                    </div>
                 </div>
-                <p class="info">User Avatar: <label name="userimage"></label><input for="userimage" class="pfpsubmit" type="file" /></p>
-                <p class="info">Active Tasks: <label name="atasks">Java Animations, HTML5 Elements Introduction</label></p>
-                <p class="info">Available Tasks: <label name="avatasks">Advanced HTML5/CSS Styling, CSS Color Styling, HTML Backgrounds</label></p>
-                <p class="info">Completed Tasks: <label name="comptasks">HTML5/CSS Introduction, Basic Programming Applications Intro</label></p>
-                <p class="info" name="cprogression">Course Progression:</p>
+                <p class="info" name="uprogression">Unit Progressions</p>
                 <div>
-                    <div class="bar"><div class="greenbar" style="width:28.5%;height:15px;"></div></div>
-                </div>
-                <p class="info" name="uprogression">Unit Progression:</p>
-                <div>
-                    <div class="bar2"><div class="greenbar" style="height:15px;width:56%"></div></div>
+                    <div class="bar2">
+                        <div class="greenbar" style="height:15px;width:56%"></div>
+                    </div>
                 </div>
             </fieldset>
             
